@@ -1,0 +1,16 @@
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\App.baml
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\git\roundButtons\roundButtons\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

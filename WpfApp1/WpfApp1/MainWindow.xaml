@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Style="{StaticResource RoundButtonsTemplate}"/>
+        <Button Style="{StaticResource RoundButtonsTemplate}" Height="50" Width="100"/>
+        <TextBox Style="{StaticResource Textbox}" Text="this is is" Height="50" Width="100" Margin="43,28,499.453,342.226"/>
+        <TextBlock Text="that is that" Height="50" Width="100" VerticalAlignment="Bottom" Margin="22,0,670.453,52.226"/>
     </Grid>
 </Window>
