@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+         </Grid.RowDefinitions>
         <Button Content="this" Style="{StaticResource RoundButtonsTemplate}" Height="50" Width="100"/>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Grid.Row="1">
 
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
                 <TextBlock FontSize="20" Margin="5" VerticalAlignment="Center">Textbox 1 :</TextBlock>
@@ -23,5 +27,19 @@
                 <TextBox Name="btnLastName" Style="{StaticResource Textbox2}"></TextBox>
             </StackPanel>
         </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="WPF Button Design" Foreground="Blue" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Margin="10">
+
+                <Button Content="Blue" Width="100" Style="{StaticResource btnBlue}" HorizontalAlignment="Left"/>
+                <Button Content="Green" Width="100" Style="{StaticResource btnGreen}" HorizontalAlignment="Left"/>
+                <Button Content="Gray" Width="100" Style="{StaticResource btnGray}" HorizontalAlignment="Left"/>
+                <Button Content="Light Coral" Width="100" Style="{StaticResource btnLightRed}" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+
+        
+
     </Grid>
 </Window>
