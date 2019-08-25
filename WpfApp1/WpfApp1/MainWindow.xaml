@@ -39,7 +39,9 @@
             </StackPanel>
         </StackPanel>
 
-        
+        <!--<Border BorderThickness="1" BorderBrush="Black" Background="Green" CornerRadius="5">
+            <TextBlock Text="Description"/>
+        </Border>-->
 
     </Grid>
 </Window>
