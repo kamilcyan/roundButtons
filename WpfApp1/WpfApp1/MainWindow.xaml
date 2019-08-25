@@ -7,8 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Style="{StaticResource RoundButtonsTemplate}" Height="50" Width="100"/>
-        <TextBox Style="{StaticResource Textbox}" Text="this is is" Height="50" Width="100" Margin="43,28,499.453,342.226"/>
-        <TextBlock Text="that is that" Height="50" Width="100" VerticalAlignment="Bottom" Margin="22,0,670.453,52.226"/>
+        <Button Content="this" Style="{StaticResource RoundButtonsTemplate}" Height="50" Width="100"/>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <TextBlock FontSize="20" Margin="5" VerticalAlignment="Center">Textbox 1 :</TextBlock>
+                <TextBox Name="btnName1" Style="{StaticResource Textbox}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <TextBlock FontSize="20" Margin="5" VerticalAlignment="Center">Textbox 2 :</TextBlock>
+                <TextBox Name="btnName" Style="{StaticResource Textbox1}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <TextBlock FontSize="20" Margin="5" VerticalAlignment="Center">Textbox 3 :</TextBlock>
+                <TextBox Name="btnLastName" Style="{StaticResource Textbox2}"></TextBox>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
